@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: ubuntu;
+}
+
+svg{
+	width: 100%;
+	height: 100%;
+}
+
+circle{
+	fill:black;
+}
+
+text{
+	font-family: ubuntu;
+	font-size: 20;
+	color:white;
+	fill:black;
+}
+body{
+	/*background-color: #48505a*/
+}
+rect{
+	stroke: black;
+	stroke-width: 1px;
+	fill: transparent;
+}
+
+#controle{
+	width: 20;
+	height: 20;
+	background-color: red;
+	position: fixed;
+	top: 10;
+	left: 10;
+	transition: 0.5s;
+	opacity: 0.5;
+	overflow: hidden;
+	margin: 0;
+	color: white;
+}
+
+#controle:hover{
+	width: 90%;
+	height: 80%;
+	transition: 0.5s;
+	opacity: 1;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#controle *{
+	margin: 10;
+
+}
+#quadrado{
+	border: white 2px solid;
+	margin: auto;
+}
+input{
+	border: 0;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
